@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NS Enterprises | Online Rent Agreement Services</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f7fc;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0a2540,#163b65);
+color:white;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:70px;
+height:70px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.logo h2{
+font-size:26px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1600');
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:600;
+border-radius:8px;
+margin:10px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#0a2540;
+}
+
+.about{
+background:white;
+border-radius:20px;
+padding:40px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.about p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#0a2540;
+margin-bottom:15px;
+}
+
+.process{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.step{
+background:white;
+padding:25px;
+border-left:6px solid #d4af37;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.contact{
+background:#0a2540;
+color:white;
+border-radius:20px;
+padding:40px;
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+footer{
+background:#061727;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:35px;
+}
+
+nav{
+display:none;
+}
+
+.section-title{
+font-size:30px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="favicon.png" alt="NS Enterprises">
+<div>
+    <span style="
+        display:block;
+        color:#d4af37;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:3px;">
+        MAHARASHTRA GOVERNMENT
+    </span>
+
+    <h2>NS Enterprises</h2>
+
+    <p>Online Leave & License Registration Services</p>
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#process">Process</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Online Leave & License Agreement Registration</h1>
+
+<p>
+Professional Rent Agreement Registration Services in Maharashtra.
+Fast, Secure, Government Compliant and Doorstep Assistance Available.
+</p>
+
+<a href="https://wa.me/917719991332" class="btn">
+WhatsApp Now
+</a>
+
+<a href="tel:+917719991332" class="btn">
+Call Now
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">What is a Rent Agreement?</h2>
+
+<div class="about">
+
+<p>
+A Rent Agreement, also known as a Leave & License Agreement, is a legal document between a property owner and a tenant. It clearly defines the rental terms, monthly rent, security deposit, agreement duration, maintenance charges, notice period, and responsibilities of both parties.
+</p>
+
+<p>
+In Maharashtra, registration of Leave & License Agreements is an important legal process that helps prevent disputes and provides legal protection to both landlords and tenants.
+</p>
+
+<p>
+A registered agreement can be used as proof of residence, for police verification, banking purposes, official documentation, and future legal requirements.
+</p>
+
+<p>
+NS Enterprises assists clients with complete documentation, drafting, registration guidance, and online processing support.
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Leave & License Agreement</h3>
+<p>Online registered rent agreements with complete assistance.</p>
+</div>
+
+<div class="card">
+<h3>Stamp Duty Registration</h3>
+<p>Calculation and registration support.</p>
+</div>
+
+<div class="card">
+<h3>Legal Documentation</h3>
+<p>Professional document preparation services.</p>
+</div>
+
+<div class="card">
+<h3>Doorstep Service</h3>
+<p>Service according to your time and location.</p>
+</div>
+
+<div class="card">
+<h3>24×7 Support</h3>
+<p>Quick customer assistance and consultation.</p>
+</div>
+
+<div class="card">
+<h3>Maharashtra Registration</h3>
+<p>Guidance for registration process.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Required Documents</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Owner Documents</h3>
+<p>Aadhaar Card, PAN Card, Photo, Property Documents.</p>
+</div>
+
+<div class="card">
+<h3>Tenant Documents</h3>
+<p>Aadhaar Card, PAN Card, Photo, Contact Details.</p>
+</div>
+
+<div class="card">
+<h3>Property Documents</h3>
+<p>Electricity Bill, Index II, Tax Receipt (if available).</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="process">
+
+<h2 class="section-title">Registration Process</h2>
+
+<div class="process">
+
+<div class="step">
+<h3>Step 1</h3>
+<p>Share Documents</p>
+</div>
+
+<div class="step">
+<h3>Step 2</h3>
+<p>Agreement Drafting</p>
+</div>
+
+<div class="step">
+<h3>Step 3</h3>
+<p>Verification Process</p>
+</div>
+
+<div class="step">
+<h3>Step 4</h3>
+<p>Registration Assistance</p>
+</div>
+
+<div class="step">
+<h3>Step 5</h3>
+<p>Receive Final Agreement</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+
+<h2>NS Enterprises</h2>
+
+<p>📞 +91 7719991332</p>
+
+<p>👤 N. S. Nahrete</p>
+
+<p>📍 Chandan Nagar, Kharadi, Pune - 411014</p>
+
+<p>🕒 Available 24 × 7</p>
+
+<p>Stamp Duty & Registration Work</p>
+
+<p>All Legal Documentation Services</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 NS Enterprises | Online Rent Agreement Services
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/917719991332">
+WhatsApp
+</a>
+
+</body>
+</html>
